@@ -46,6 +46,19 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': ['off'],
         'jsx-a11y/click-events-have-key-events': ['off'],
         'jsx-a11y/mouse-events-have-key-events': ['off'],
+        'jsx-a11y/label-has-associated-control': ['off'],
+        'jsx-a11y/no-noninteractive-element-interactions': ['off'],
+
+        // 允许省略图片的alt属性
+        'jsx-a11y/alt-text': ['off'],
+
+        // 允许在constructor外声明state
+        'react/state-in-constructor': ['off'],
+
+        // 允许在组件内声明静态属性
+        'react/static-property-placement': ['off'],
+
+        'global-require': ['off'],
 
         // 禁止使用变量解构 关闭
         'react/jsx-props-no-spreading': ['off'],
