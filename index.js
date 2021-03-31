@@ -26,7 +26,7 @@ module.exports = {
         },
     },
     settings: {
-        'import/resolver': {
+        'import/resolver': ['node', {
             webpack: {
                 config: {
                     resolve: {
@@ -37,7 +37,7 @@ module.exports = {
                     },
                 },
             },
-        },
+        }],
     },
     rules: {
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
