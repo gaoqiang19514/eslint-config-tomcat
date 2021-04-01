@@ -49,6 +49,9 @@ module.exports = {
         'jsx-a11y/label-has-associated-control': ['off'],
         'jsx-a11y/no-noninteractive-element-interactions': ['off'],
 
+        // 匿名组件设置display-name
+        'react/display-name': ['off'],
+
         // 允许省略图片的alt属性
         'jsx-a11y/alt-text': ['off'],
 
