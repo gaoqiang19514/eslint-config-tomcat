@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tomcat",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "prettier": "^2.2.1",
-    "eslint": "^6.1.0",
-    "babel-eslint": "^10.0.3",
+    "eslint": "^7.21.0",
+    "babel-eslint": "^10.1.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
